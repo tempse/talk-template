@@ -15,6 +15,9 @@ python -m http.server 8001
 ```
 - Edit `talk.md` for making your slides.
 - Use [decktape](https://github.com/astefanutti/decktape) for exporting your slides to PDF.
+  <details>
+    Currently working export command: "sudo `npm bin`/decktape http://0.0.0.0:8001 slides.pdf --no-sandbox"
+  </details>
 
 ## Markup language
 
